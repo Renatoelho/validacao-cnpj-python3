@@ -1,0 +1,2 @@
+<Python 3.8.10>
+<não é necessário instalar nenhuma biblioteca externa do Python 3> 

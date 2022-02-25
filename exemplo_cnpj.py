@@ -2,7 +2,7 @@
 
 from ferramentas.valida_cnpj import Cnpj
 
-CNPJ = Cnpj.valida_cnpj('00000000000191')
+CNPJ: bool = Cnpj.valida_cnpj('00000000000191')
 
 print(CNPJ)
 

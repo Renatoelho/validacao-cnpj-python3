@@ -4,7 +4,7 @@ Essa solução facilita a validação de um ou vários CNPJs, isso é útil para
 
 Temos um método chamado **valida_cnpj**, dentro da classe **Cnpj**. Para utilizar essa funcionalidade é necessário importar o módulo ````ferramentas```` no seu código principal, chamar o método ````valida_cnpj```` e passar como parâmetro uma string de números com 14 posições. Lembre-se de adicionar os zeros à esquerda. 
 
-O método retornará ````True```` para um CNPJ válido ou ````False````.
+O método retornará ````True```` para um CNPJ válido ou ````False```` (para um CNPJ inválido).
 
 ### Exemplo:
 
@@ -15,7 +15,7 @@ O método retornará ````True```` para um CNPJ válido ou ````False````.
 
 from ferramentas.valida_cnpj import Cnpj
 
-CNPJ = Cnpj.valida_cnpj('00000000000191')
+CNPJ: bool = Cnpj.valida_cnpj('00000000000191')
 
 print(CNPJ)
 
